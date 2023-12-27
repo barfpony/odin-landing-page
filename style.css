@@ -96,14 +96,20 @@ button {
 #box1-wrapper {
     padding-top: 50px;
     gap: 60px;
+    align-items: center;
 }
 
 #box1-left, #box1-right {
     flex: 1;
 }
 
-#box1-right {
-    background-color: gray;
+#box1-right img {
+    display: flex;
+    max-width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    height: auto;
 }
 
 #box2-wrapper {
@@ -120,7 +126,7 @@ button {
 #box2-info-items img {
     border: solid;
     border-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #box2-info-items div {
